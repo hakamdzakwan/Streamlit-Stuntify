@@ -55,7 +55,7 @@ def main():
     # Input fields
     age = st.number_input("Umur (Bulan):", min_value=0, step=1, format="%d")
     birth_weight = st.number_input("Berat Lahir (KG):", min_value=0.0, step=0.1, format="%.1f")
-    birth_length = st.number_input("Panjang Lahir (CM):", min_value=0.0, step=0.1, format="%.1f")
+    birth_length = st.number_input("Tinggi Lahir (CM):", min_value=0.0, step=0.1, format="%.1f")
     body_weight = st.number_input("Berat Badan (KG):", min_value=0.0, step=0.1, format="%.1f")
     body_length = st.number_input("Tinggi Badan (CM):", min_value=0.0, step=0.1, format="%.1f")
     gender = st.radio("Jenis Kelamin:", ("L", "P"))
