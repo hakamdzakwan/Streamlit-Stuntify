@@ -46,7 +46,7 @@ def main():
     # Add a logo to the sidebar
     with st.sidebar:
         st.markdown("<div class='sidebar-logo'>", unsafe_allow_html=True)
-        st.image("Stuntify/logo.png", use_column_width=True)
+        st.image("Stuntify/logo.png", use_container_width=True)
         st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("<h1 class='main-title'>Stuntify</h1>", unsafe_allow_html=True)
